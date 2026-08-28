@@ -6,7 +6,7 @@ Notebook Jupyter único que contém um estudo de **Exploratory Data Analysis (ED
 ---
 
 ## Conteúdo do repositório
-- `Proj_Final_VFINAL1.ipynb` — Notebook principal (EDA, pipeline de recomendação, avaliação e exemplos de inferência; inclui secção com código do dashboard Dash).
+- `TUT2_TDIA_112779.123557.123554` — Notebook principal (EDA, pipeline de recomendação, avaliação e exemplos de inferência; inclui secção com código do dashboard Dash).
 - `requirements.txt` — dependências do notebook (opcional).
 - `data/` — pasta para colocar ficheiros de dados (não incluída no repositório se os dados forem sensíveis).
 
