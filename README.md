@@ -1,31 +1,24 @@
 # Video Games Recommendation — EDA, Recommender & Dashboard
+## Description
+Single Jupyter Notebook containing an Exploratory Data Analysis (EDA) study on video game data, the implementation of a recommendation system (collaborative filtering / content-based / hybrid), and an interactive dashboard built with Dash to explore data and recommendations.
 
-**Descrição**  
-Notebook Jupyter único que contém um estudo de **Exploratory Data Analysis (EDA)** sobre dados de videojogos, a implementação de um **sistema de recomendação** (filtragem colaborativa / conteúdo / híbrido) e um **dashboard interativo** construído com Dash para explorar dados e recomendações.
+## Repository contents
+TUT2_TDIA_112779.123557.123554 — Main notebook (EDA, recommendation pipeline, evaluation, and inference examples; includes a section with the Dash dashboard code).
+requirements.txt — notebook dependencies (optional).
+data/ — folder to place data files (not included in the repository if the data is sensitive).
 
----
-
-## Conteúdo do repositório
-- `TUT2_TDIA_112779.123557.123554` — Notebook principal (EDA, pipeline de recomendação, avaliação e exemplos de inferência; inclui secção com código do dashboard Dash).
-- `requirements.txt` — dependências do notebook (opcional).
-- `data/` — pasta para colocar ficheiros de dados (não incluída no repositório se os dados forem sensíveis).
-
----
-
-## Requisitos
-- Python 3.8+  
-- Recomenda‑se ambiente virtual (`venv` ou `conda`)  
-- Principais bibliotecas: `pandas`, `numpy`, `scikit-learn`, `lightfm` ou `surprise` (opcional), `plotly`, `dash`, `jupyter`
-
----
+## Requirements
+Python 3.8+
+Virtual environment recommended (venv or conda)
+Main libraries: `pandas`, `numpy`, `scikit-learn`, `lightfm` or `surprise` (optional), `plotly`, `dash`, `jupyter`
 
 ## Quickstart
+1º Clone / open the repository
+Place the file Proj_Final_VFINAL1.ipynb in a local folder.
 
-1. **Clonar / abrir o repositório**  
-   Colocar o ficheiro `Proj_Final_VFINAL1.ipynb` numa pasta local.
+Create and activate a virtual environment:
 
-2. **Criar e ativar ambiente virtual**
-```bash
+````bash
 python -m venv .venv
 # Linux / macOS
 source .venv/bin/activate
